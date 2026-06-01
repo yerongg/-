@@ -43,6 +43,9 @@
 - 저장된 Parquet 데이터 레이아웃을 Hive 내부의 `energy_db` 데이터베이스에 **외부 테이블(External Table)**로 스키마 매핑합니다.
 - 복잡한 데이터 분석 집계 연산 시 맵리듀스(MapReduce) 대신 고속 분산 연산 엔진인 **Apache Tez**를 활성화하여 '국가별 재생에너지 비중 대비 탄소집약도 추이' 통계 마트를 최종 추출합니다.
 
+## AI Tool Usage
+- Gemini: PySpark 실행 및 Hive HDFS 권한 에러(`AccessControlException`) 디버깅, Git 푸시 오류 해결, README.md 구조화 및 실행 가이드 작성, 발표 슬라이드 제작 도움
+  
 ---
 
 ## Repository Structure
@@ -57,9 +60,4 @@ bigdata-project/
 │   │   └── process_data.py           
 │   └── analyze/
 │       └── analysis.hql             
-└── README.md
-
----
-
-## AI Tool Usage
-- Gemini: PySpark 실행 및 Hive HDFS 권한 에러(`AccessControlException`) 디버깅, Git 푸시 오류 해결, README.md 구조화 및 실행 가이드 작성, 발표 슬라이드 제작 도움                 
+└── README.md           
