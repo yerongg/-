@@ -59,5 +59,7 @@ bigdata-project/
 │       └── analysis.hql             
 └── README.md
 
+---
+
 ## AI Tool Usage
 - Gemini: PySpark 실행 및 Hive HDFS 권한 에러(`AccessControlException`) 디버깅, Git 푸시 오류 해결, README.md 구조화 및 실행 가이드 작성, 발표 슬라이드 제작 도움                 
