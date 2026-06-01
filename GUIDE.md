@@ -26,7 +26,7 @@ hive -f ~/bigdata-project/src/analyze/analysis.hql
 
 ### 6단계: GitHub용 500줄 샘플 데이터 동기화
 hdfs dfs -cat /user/project/raw_data/energy/owid_energy_data.csv 2>/dev/null | head -n 500 > ~/bigdata-project/data/energy_sample.csv
-hdfs dfs -cat /user/project/raw_data/co2/owid_co2.csv 2>/dev/null | head -n 500 > ~/bigdata-project/data/owid_co2_sample.csv
-hdfs dfs -cat /user/project/raw_data/gdp/gdp.csv 2>/dev/null | head -n 500 > ~/bigdata-project/data/gdp_sample.csv
 
----
+hdfs dfs -cat /user/project/raw_data/co2/owid_co2.csv 2>/dev/null | head -n 500 > ~/bigdata-project/data/owid_co2_sample.csv
+
+hdfs dfs -cat /user/project/raw_data/gdp/gdp.csv 2>/dev/null | head -n 500 > ~/bigdata-project/data/gdp_sample.csv
